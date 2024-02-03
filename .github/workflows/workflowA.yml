@@ -17,7 +17,7 @@ on:
 
 jobs:
   example_job:
-    name: Generate output
+    name: workflowA repo >> workflowA.yml >> Generate output
     runs-on: ubuntu-latest
     # Map the job outputs to step outputs
     outputs:
