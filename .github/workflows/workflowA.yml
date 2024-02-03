@@ -3,6 +3,10 @@ name: workflowA.yml
 on:
   workflow_call:
     # Map the workflow outputs to job outputs
+    inputs:
+      release-tag:
+        required: true
+        type: string
     outputs:
       firstword:
         description: "The first output string"
